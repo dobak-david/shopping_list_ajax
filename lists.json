@@ -1,0 +1,44 @@
+[
+    {
+        "place": "Tesco",
+        "id": 0,
+        "img": "tescoLogo.jpg",
+        "Items": {
+            "1": "Knorr p\u00f6rk\u00f6ltkocka",
+            "2": "Sonka",
+            "3": "pillanat ragaszt\u00f2 ",
+            "4": "tej",
+            "5": "dar\u00e0lth\u00f9s",
+            "6": "p\u00e0rizsi",
+            "7": "Tuti rudi"
+        }
+    },
+    {
+        "place": "Lidl",
+        "id": 1,
+        "img": "lidlLogo.png",
+        "Items": [
+            "Szilvia"
+        ]
+    },
+    {
+        "place": "Gy\u00f3gyszert\u00e1r",
+        "id": 2,
+        "img": "pharmacy.jpg",
+        "Items": []
+    },
+    {
+        "place": "P\u00e9k",
+        "id": 3,
+        "img": "bakery.jpg",
+        "Items": [
+            "keny\u00e9r"
+        ]
+    },
+    {
+        "place": "Piac",
+        "id": 4,
+        "img": "markt.png",
+        "Items": []
+    }
+]

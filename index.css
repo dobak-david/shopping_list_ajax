@@ -1,0 +1,92 @@
+html,
+body {
+  margin: -11px 0px 0px 0px;
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(0, 184, 200);
+}
+
+.actions {
+    margin: -11px 0px 0px 0px;
+    background-color: gray;
+    height: 100vh;
+    position: static;
+    padding: 20px;
+    width: 10%;
+    min-width: 80px;
+    float: left;
+}
+
+.main {
+    
+}
+
+.intro {
+    text-align: center;
+}
+
+.title1 {
+    margin-top: 30px;
+}
+
+.listsOfTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainContent {
+    
+}
+
+.activeListItems {
+    margin-left: 200px;
+}
+
+.hasItemInit {
+    background-color: yellow !important;
+}
+
+.newItem {
+
+}
+
+li {
+    cursor: pointer;
+}
+
+.listType {
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    margin: 10px 20px;
+    background-color: rgb(0, 72, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.listType > img {
+    height: 50px;
+}
+
+.activeList {
+    background-color: rgb(0, 0, 77) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .actions {
+        float: none;
+        width: 100%;
+        padding-top: 40px;
+        height: auto;
+    }
+    .activeListItems, #newItem {
+        margin-left: 10px;
+    }
+  }
